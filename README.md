@@ -22,18 +22,12 @@ Since modem can be controlled in runtime  solely based on AT COMMAND port, YTR_S
 
 Simply import YTR_SER  and run the command sequence, see netReg.py for an example. One need to write the AT response processing using regular expressions 
 
-=== Output of netReg.py ===
-OPENING MODEM SERIAL  CONNECTION#######
-Port: /dev/ttyUSB2
-Baud: 115200
-################################
-SENT COMMAND AT
- response: ['AT', 'OK']
-Modem replied, communications OK.....
-SENT COMMAND AT+CREG=2
- response: ['AT+CREG=2', 'OK']
-SENT COMMAND AT+CREG?
- response: ['AT+CREG?', '+CREG: 2,1, 9D68, 8FEDAB7', '', 'OK']
+
+## See the wiki for output 
+Output of each module is shown using setting.txt and wad.conf 
+Modify these to work for your ttyUSB ports
+Wiki link: https://github.com/yantrr-support/mdm_connect/wiki
+
 
 
 
