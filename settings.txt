@@ -1,0 +1,8 @@
+#To set your serial for AT CMD , enter with the format:
+#PORT(SPACE)"portName"(RETURN)
+# Most Modem has 2 (PORTS) now
+#BAUD(SPACE)baud#(RETURN)
+#as shown
+
+PORT /dev/ttyUSB2
+BAUD 115200
